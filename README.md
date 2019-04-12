@@ -59,7 +59,7 @@ curl -X PUT "localhost:9200/customers/_mapping/customers_detail" -H 'Content-Typ
 
 1) Start the postgresql server on port 5432(default port) with one database with name "postgres" and modify application.properties accordingly for (username, password, database.url).
 2) Start elasticsearch cluster on port 9200.
-3) Java -jar parkinglot-1.0-SNAPSHOT.jar .
+3) Java -jar parkinglot-1.0-SNAPSHOT.jar(Build project using "maven clean install" command).
 4) Go to localhost:50165/health to check if application is up or not (Application health check endpoint).
 5) If application is up go to http://localhost:65432/parking_service/swagger-ui.html .
 6) First regsiter the user who wants parking service.
